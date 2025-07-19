@@ -9,4 +9,10 @@ Currently, two official plugins are available:
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+SO, this is something which is realted to "S-Line" concept of a k-drama, 
+hat i did is , simplely catureing the photo,
+for the camera acces i used   "  navigator.mediaDevices.getUserMedia({ video: true } " ---> this help me get the meadia acces 
+then through the canvas and getContext I can make the user give me their image data .
+then that image is given to img tag and boom the image is on the laptop 
+
+# tho it some improvemnt like -- picture qualtiy can be improved
