@@ -15,4 +15,9 @@ for the camera acces i used   "  navigator.mediaDevices.getUserMedia({ video: tr
 then through the canvas and getContext I can make the user give me their image data .
 then that image is given to img tag and boom the image is on the laptop 
 
-# tho it some improvemnt like -- picture qualtiy can be improved
+# tho it some improvemnt like 
+--> picture qualtiy can be improved
+--> camera size 
+--> error handling 
+
+would improve all this in version 2 
