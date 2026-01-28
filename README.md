@@ -1,23 +1,77 @@
-# React + Vite
+# 🔴 S-Line Visualizer (Concept Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+**S-Line Visualizer** is an experimental web project inspired by the *S-Line* concept from Korean pop culture and dramas, where red lines symbolize hidden connections and abstract relationships.
 
-Currently, two official plugins are available:
+<img src="public/images/image-1.webp" alt="Project Preview" width="500"/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+This project explores how **visual symbolism** can be combined with **camera-based interaction** to create a playful and slightly unsettling experience. The website accesses the user’s camera, captures an image, and overlays **randomized red lines** on the face to mimic the idea of invisible “connections” becoming visible.
 
-SO, this is something which is realted to "S-Line" concept of a k-drama, 
-hat i did is , simplely catureing the photo,
-for the camera acces i used   "  navigator.mediaDevices.getUserMedia({ video: true } " ---> this help me get the meadia acces 
-then through the canvas and getContext I can make the user give me their image data .
-then that image is given to img tag and boom the image is on the laptop 
+This is **not a beauty filter** or a facial rating tool. It is a **conceptual visualization project**.
 
-# tho it some improvemnt like 
---> picture qualtiy can be improved
---> camera size 
---> error handling 
+---
 
-would improve all this in version 2 
+## Core Idea
+The original *S-Line* idea represents information that normally remains private suddenly becoming visible.
+
+This project translates that idea into a **visual metaphor**:
+
+- The **face** represents identity  
+- The **red lines** represent abstract, hidden data  
+- Randomization emphasizes uncertainty, interpretation, and illusion  
+
+The output is intentionally symbolic rather than accurate.
+
+---
+
+## How It Works
+1. User clicks on the camera interaction area  
+2. Browser requests camera permission  
+3. User’s photo is captured  
+4. The captured image is displayed  
+5. Red lines are programmatically drawn as a visual overlay  
+
+No images are stored or uploaded to any server.
+
+---
+
+## Tech Stack
+- HTML  
+- CSS  
+- JavaScript  
+- Browser Camera API (`getUserMedia`)  
+
+---
+
+## Privacy Note
+- Camera access is used **only in-browser**
+- No photos are saved, uploaded, or shared
+- All processing happens locally on the user’s device
+
+---
+
+## Future Improvements
+- Face detection to identify facial structure  
+- Mathematical scoring based on detected facial landmarks  
+- Dynamic logic to generate the **number and placement** of red lines  
+- Improved visual realism and animation of line rendering  
+- Mobile responsiveness and performance optimizations  
+
+---
+
+## Disclaimer
+This project is **experimental and conceptual**.
+
+All visual output is symbolic and randomized, and **does not represent real data, relationships, or personal attributes**.
+
+---
+
+## Motivation
+This project was built to:
+
+- Experiment with browser-based camera interaction  
+- Explore visual storytelling through code  
+- Prototype computer-vision–adjacent ideas before integrating real models  
+
+---
