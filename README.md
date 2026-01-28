@@ -38,6 +38,14 @@ No images are stored or uploaded to any server.
 
 ---
 
+## Image Handling
+
+- Captured images are stored temporarily in memory as Base64 data
+- Images exist only during the active session
+- No image data is persisted, uploaded, or shared
+ 
+---
+
 ## Tech Stack
 - React  
 - Browser Camera API (`getUserMedia`)  
@@ -45,10 +53,13 @@ No images are stored or uploaded to any server.
 
 ---
 
-## Privacy Note
-- Camera access is used **only in-browser**
-- No photos are saved, uploaded, or shared
-- All processing happens locally on the user’s device
+## Browser & Permissions
+
+- Requires a modern browser with Camera API support
+- Camera permission must be explicitly granted by the user
+- Works best on Chromium-based browsers (Chrome, Edge)
+- HTTPS is required for camera access (except on localhost)
+
 
 ---
 
