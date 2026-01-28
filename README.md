@@ -34,13 +34,14 @@ The output is intentionally symbolic rather than accurate.
 
 No images are stored or uploaded to any server.
 
+<img src="public/images/image-2.png" alt="Project Preview" width="500"/>
+
 ---
 
 ## Tech Stack
-- HTML  
-- CSS  
-- JavaScript  
+- React  
 - Browser Camera API (`getUserMedia`)  
+<img src="public/images/image-3.png" alt="Project Preview" width="500"/>
 
 ---
 
@@ -51,7 +52,7 @@ No images are stored or uploaded to any server.
 
 ---
 
-## Future Improvements
+## Future Improvements {would be implementing soon , Open for contribution}
 - Face detection to identify facial structure  
 - Mathematical scoring based on detected facial landmarks  
 - Dynamic logic to generate the **number and placement** of red lines  

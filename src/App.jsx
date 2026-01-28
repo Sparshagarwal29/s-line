@@ -17,15 +17,12 @@ function App() {
     const video = videoRef.current;
     
     if (canvas && video) {
-      // Set canvas size to match video
       canvas.width = video.videoWidth;
       canvas.height = video.videoHeight;
       
       // Draw current video frame to canvas
       const ctx = canvas.getContext('2d');
       ctx.drawImage(video, 0, 0);
-      
-      // Convert canvas to image data
       const imageData = canvas.toDataURL('image/jpeg');
       setCapture(imageData);
     }
